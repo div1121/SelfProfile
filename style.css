@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
+
+header{
+    background-image: url(image/imaget.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding:10px;
+    text-align:center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color:orange;
+    font-size:2rem;
+}
+
+body {
+    font-family: 'Sriracha', cursive;
+}
+
+section{
+    margin:20px 10px;
+    padding:20px;
+    border-style:solid;
+    border-radius:2em;
+}
+
+section h2 {
+    font-variant: small-caps;
+    text-align: center;
+}
+
+nav li{
+    text-align:center;
+    font-size:1rem;
+    display: inline-block;
+    width:23%;
+}
+
+nav a:link {
+    color: green;
+    text-decoration: none;
+}
+
+
+nav a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+    color: Tomato;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+nav a:active {
+    color: SlateBlue;
+    text-decoration: none;
+}
+
+#me{
+    background-color:AntiqueWhite;
+}
+
+#me img{
+    float:right;
+    max-height:150px;
+    max-width:60%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.flex-container > div {
+    height:8rem;
+    width:10rem;
+    background: grey;
+    margin: 1rem;
+    text-align: center;
+    line-height:8rem;
+    color: white;
+}
+
+#skill{
+    background-color: aquamarine;
+}
+
+#skill table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#skill th, td {
+    padding:1rem;
+    border-bottom: 1px solid white;
+}
+
+#skill tr:hover {
+    background:greenyellow;
+}
+
+#skill div ol{
+    list-style-type: upper-roman;
+    text-align:center;
+    list-style-position:inside;
+}
+
+#skill ol li{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 0 1rem;
+    margin: 1rem;
+}
+
+#skill p{
+    text-align: center;
+}
+
+#course{
+    background-color:SkyBlue;
+}
+
+#course p{
+    text-align:center;
+}
+
+#course table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+
+#course th, td {
+    padding:1rem;
+    border-bottom: 1px solid white;
+}
+
+#course tr:hover {
+    background: #1e90ff;
+}
+
+#course select{
+    width:100%;
+    padding: 1rem;
+    background-color: #7fc3e0;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+#link{
+    background-color:yellow;
+}
+
+#link a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+#link a:link {
+    color: green;
+    text-decoration: none;
+}
+
+#link a:hover {
+    color: Tomato;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#link a:active {
+    color: violet;
+    text-decoration: none;
+}
+
+footer{
+    background-color:red;
+    text-align:right;
+    padding:3px;
+    color:white;
+}
+
+@media screen and (max-width: 450px) {
+nav li{
+    text-align:center;
+    display: inline-block;
+    width: 20%;
+}
+
+section {
+margin:10px;
+padding:5px;
+border-style:dotted;
+border-radius: 0;
+}
+
+#me img {
+min-width: 20%;
+float:none;
+}
+
+#me .flex-container div {
+margin: 0.5rem;
+}
+
+}

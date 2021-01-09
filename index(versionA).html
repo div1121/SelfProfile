@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,initial-scale=1, user-scalable=0, viewport-fit=cover">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>div1121@cuhk</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" async defer></script>
+</head>
+
+<body>
+<article>
+
+<header>
+    <h1>I am Chu Chun To, Jason</h1>
+    <h3>My Personal Website</h3>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#me">About Me</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#course">My Course</a></li>
+        <li><a href="#link">Links</a></li>
+    </ul>
+</nav>
+
+<section id="me">
+    <h2>About Me</h2>
+    <div>
+    <picture>
+        <source srcset="image/image1.jpg" media="(min-width: 800px)">
+        <source srcset="image/image2.jpeg" media="(min-width: 600px)">
+        <img src="image/image3.jpg" alt="Jason">
+    </picture>
+    <p>
+    Passionate programmer with at least two years of experience and mainly focus on C/C++ programming. With knowledge to build a web with HTML/CSS/JavaScript language. A beginner in machine learning, aspects related to supervised learning and unsupervised learning. With knowledge related to computer graphic (OpenGL). Currently an ELITE student of Engineering in the Chinese University of Hong Kong.
+    </p>
+    </div>
+    <h3>My hobby</h3>
+    <div class="flex-container">
+    <div>Programming</div>
+    <div>Playing Board Game</div>
+    <div>Drawing</div>
+    </div>
+</section>
+
+<section id="skill">
+    <h2>Programming Skill</h2>
+    <p>I am familiar with some specific programming language below:</p>
+    <table id="programtable">
+    </table>
+    <p>Related aspects of knowledge with web design:</p>
+    <div style="width:100%;">
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>Node.js with Express</li>
+        <li>MongoDB</li>
+    </ol>
+    </div>
+    <p>Related aspects of knowledge with machine learning:</p>
+    <div style="width:100%;">
+        <ol>
+            <li>Linear Regression</li>
+            <li>Logistic Regression</li>
+            <li>Neural Network</li>
+            <li>Support Vector Machine</li>
+            <li>K-Mean Clustering</li>
+            <li>Principal Components Analysis</li>
+            <li>Anomaly Detection using Gaussian Distribution</li>
+            <li>Recommender Systems</li>
+            <li>Convolutional Neural Network</li>
+            <li>Generative Adversial Network</li>
+            <li>TensorFlow</li>
+        </ol>
+    </div>
+</section>
+
+<section id="course">
+    <h2>My Course</h2>
+    <p>I have enrolled the following courses in CUHK related to Engineering:</p>
+    <select id="selectlist" onchange="duelchange()">
+        <option value="Y1S1">Year 1 semester 1</option>
+        <option value="Y2S1">Year 2 semester 1</option>
+        <option value="Y2S2">Year 2 semester 2</option>
+        <option value="Y3S1">Year 3 semester 1</option>
+        <option selected value="Y3S2">Year 3 semester 2(Current)</option>
+    </select>
+    <table id="coursetable">
+    </table>
+</section>
+
+<section id="link">
+    <h2>Related Links</h2>
+    <ul>
+        <li><a target="_blank" href="https://leetcode.com/div1121/">LeetCode</a></li>
+        <li><a target="_blank" href="https://www.hackerrank.com/div1121">HackerRank</a></li>
+        <li><a target="_blank" href="https://codeforces.com/profile/jasonchu19991121">Codeforces</a></li>
+        <li><a target="_blank" href="https://github.com/div1121">Github</a></li>
+    </ul>
+</section>
+
+<footer>
+    This website was updated and implemented on <time>2021-01-09</time>. <b>div1121</b>
+</footer>
+</article>
+</body>
+</html>
