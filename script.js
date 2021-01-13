@@ -12,11 +12,11 @@ var Y2S2 = [["CSCI3280","Intro to Multimedia Systems","A"],
     ["ESTR1003","Engineering Physics","A-"],
     ["ESTR2102","Data Structures","A"]]
 
-var Y3S1 = [["CSCI3130","Formal Languages and Automata Theory","IP"],
-    ["CSCI3150","Introduction to Operating System","IP"],
-    ["CSCI3170","Introduction to Database System","IP"],
-    ["CSCI3260","Principles of Computer Graphics","IP"],
-    ["ESTR3108","Fundamentals of Artificial Intelligence","IP"]]
+var Y3S1 = [["CSCI3130","Formal Languages and Automata Theory","A"],
+    ["CSCI3150","Introduction to Operating System","A"],
+    ["CSCI3170","Introduction to Database System","A"],
+    ["CSCI3260","Principles of Computer Graphics","A"],
+    ["ESTR3108","Fundamentals of Artificial Intelligence","A"]]
 
 var Y3S2 = [["CSCI3100","Software Engineering","IP"],
             ["CSCI3180","Principles of Programming Languages","IP"],
