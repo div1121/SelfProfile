@@ -18,14 +18,14 @@ var Y3S1 = [["CSCI3130","Formal Languages and Automata Theory","A"],
     ["CSCI3260","Principles of Computer Graphics","A"],
     ["ESTR3108","Fundamentals of Artificial Intelligence","A"]]
 
-var Y3S2 = [["CSCI3100","Software Engineering","IP"],
-            ["CSCI3180","Principles of Programming Languages","IP"],
-            ["CSCI3250","Computer and Society","IP"],
-            ["CSCI4120","Principles of Computer Game Software","IP"],
-            ["CSCI5210","Advanced Computer Graphic and Visualization","IP"],
-            ["ESTR4104","Distributed and Parallel Computing","IP"]]
+var Y3S2 = [["CSCI3100","Software Engineering","A"],
+            ["CSCI3180","Principles of Programming Languages","A"],
+            ["CSCI3250","Computer and Society","A-"],
+            ["CSCI4120","Principles of Computer Game Software","A"],
+            ["CSCI4160","Distributed and Parallel Computing","A-"],
+            ["CSCI5210","Advanced Computer Graphic and Visualization","A-"]]
 
-var plang = [["C++",2018],["C",2018],["Java",2019],["Python",2019],["SQL",2020],["Prolog",2020]];
+var plang = [["C++",2018],["C",2018],["Java",2019],["Python",2019],["SQL",2020],["Prolog",2020],["Go",2021],["C#",2021]];
 
 function changecourselist(temp){
     var w = window[temp];
